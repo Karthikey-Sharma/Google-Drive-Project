@@ -1,5 +1,6 @@
 #btnAddFolder {
-    border-radius: 5px;
+    border-style: dotted;
+    border-radius: 40px;
     background-color: rgb(97, 97, 5);
     width: 200px;
     margin-left: 600px;
@@ -13,7 +14,7 @@
 
 #divContainer {
     background-color: orange;
-    border: 1px solid black;
+    border: 3px dashed black;
     padding: 10px;
     margin-top: 10px;
     display: flex;
@@ -21,6 +22,7 @@
 
 .folder {
     background-color: rgb(211, 199, 176);
+    border-style: dashed;
     border-radius: 5px;
     height: 100px;
     width: 100px;
