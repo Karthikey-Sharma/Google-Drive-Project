@@ -1,0 +1,42 @@
+#btnAddFolder {
+    border-radius: 5px;
+    background-color: rgb(97, 97, 5);
+    width: 200px;
+    margin-left: 600px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#btnAddFolder:hover {
+    transform: scale(1.02);
+}
+
+#divContainer {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.folder {
+    background-color: rgb(211, 199, 176);
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folder [action] {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div[purpose="name"] {
+    margin-top: 50px;
+    color: white;
+    /* word-wrap: break-word;
+    height: 50px;
+    overflow: scroll; */
+}
